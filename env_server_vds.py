@@ -56,7 +56,7 @@ def run_server():
     print(f"📁 .env dosyası: {os.path.join(os.path.dirname(__file__), ENV_FILE)}")
     print(f"🌐 Local URL: http://localhost:{PORT}/env")
     print(f"🌐 Network URL: http://0.0.0.0:{PORT}/env")
-    print(f"🌐 External URL: http://YOUR_VDS_IP:{PORT}/env")
+    print(f"🌐 External URL: http://35.205.146.21:{PORT}/env")
     print(f"\n⚠️  Sunucuyu kapatmak için Ctrl+C basın\n")
     try:
         httpd.serve_forever()
